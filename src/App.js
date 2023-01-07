@@ -1,11 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import React from "react";
-
+import * as React from 'react';
 function App() {
   return (
-    <h1>Hello World</h1>
+    <h1 className='bg-red-300'>Hello World</h1>
   );
 }
-
+// eslint-disable-next-line
 export default App;
